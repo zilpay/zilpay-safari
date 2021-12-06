@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		15158483275E0ACB0054D1B5 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 15158482275E0ACB0054D1B5 /* logo.png */; };
 		15C46DD4275E0713006C8134 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C46DD3275E0713006C8134 /* AppDelegate.swift */; };
 		15C46DD7275E0713006C8134 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15C46DD5275E0713006C8134 /* Main.storyboard */; };
 		15C46DD9275E0713006C8134 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C46DD8275E0713006C8134 /* ViewController.swift */; };
@@ -14,14 +15,20 @@
 		15C46DE2275E0714006C8134 /* ZIlPay Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 15C46DE1275E0714006C8134 /* ZIlPay Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		15C46DE7275E0714006C8134 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15C46DE6275E0714006C8134 /* Cocoa.framework */; };
 		15C46DEA275E0714006C8134 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C46DE9275E0714006C8134 /* SafariWebExtensionHandler.swift */; };
-		15C46DED275E0714006C8134 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 15C46DEC275E0714006C8134 /* _locales */; };
-		15C46DEF275E0714006C8134 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 15C46DEE275E0714006C8134 /* images */; };
-		15C46DF1275E0714006C8134 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 15C46DF0275E0714006C8134 /* manifest.json */; };
-		15C46DF3275E0714006C8134 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 15C46DF2275E0714006C8134 /* background.js */; };
-		15C46DF5275E0714006C8134 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 15C46DF4275E0714006C8134 /* content.js */; };
-		15C46DF7275E0714006C8134 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 15C46DF6275E0714006C8134 /* popup.html */; };
-		15C46DF9275E0714006C8134 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 15C46DF8275E0714006C8134 /* popup.css */; };
-		15C46DFB275E0714006C8134 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 15C46DFA275E0714006C8134 /* popup.js */; };
+		15C46E15275E0794006C8134 /* bundle.js in Resources */ = {isa = PBXBuildFile; fileRef = 15C46E07275E0793006C8134 /* bundle.js */; };
+		15C46E16275E0794006C8134 /* imgs in Resources */ = {isa = PBXBuildFile; fileRef = 15C46E08275E0793006C8134 /* imgs */; };
+		15C46E17275E0794006C8134 /* phishing.html in Resources */ = {isa = PBXBuildFile; fileRef = 15C46E09275E0793006C8134 /* phishing.html */; };
+		15C46E18275E0794006C8134 /* vectors in Resources */ = {isa = PBXBuildFile; fileRef = 15C46E0A275E0793006C8134 /* vectors */; };
+		15C46E19275E0794006C8134 /* icons in Resources */ = {isa = PBXBuildFile; fileRef = 15C46E0B275E0793006C8134 /* icons */; };
+		15C46E1A275E0794006C8134 /* schema.json in Resources */ = {isa = PBXBuildFile; fileRef = 15C46E0C275E0794006C8134 /* schema.json */; };
+		15C46E1B275E0794006C8134 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 15C46E0D275E0794006C8134 /* content.js */; };
+		15C46E1C275E0794006C8134 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 15C46E0E275E0794006C8134 /* index.html */; };
+		15C46E1D275E0794006C8134 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 15C46E0F275E0794006C8134 /* manifest.json */; };
+		15C46E1E275E0794006C8134 /* inpage.js in Resources */ = {isa = PBXBuildFile; fileRef = 15C46E10275E0794006C8134 /* inpage.js */; };
+		15C46E1F275E0794006C8134 /* lang in Resources */ = {isa = PBXBuildFile; fileRef = 15C46E11275E0794006C8134 /* lang */; };
+		15C46E20275E0794006C8134 /* bundle.css in Resources */ = {isa = PBXBuildFile; fileRef = 15C46E12275E0794006C8134 /* bundle.css */; };
+		15C46E21275E0794006C8134 /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = 15C46E13275E0794006C8134 /* fonts */; };
+		15C46E22275E0794006C8134 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 15C46E14275E0794006C8134 /* background.js */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +56,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		15158482275E0ACB0054D1B5 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
 		15C46DCF275E0713006C8134 /* ZIlPay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZIlPay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		15C46DD2275E0713006C8134 /* ZIlPay.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ZIlPay.entitlements; sourceTree = "<group>"; };
 		15C46DD3275E0713006C8134 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -59,16 +67,22 @@
 		15C46DE1275E0714006C8134 /* ZIlPay Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "ZIlPay Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		15C46DE6275E0714006C8134 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		15C46DE9275E0714006C8134 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
-		15C46DEC275E0714006C8134 /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
-		15C46DEE275E0714006C8134 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
-		15C46DF0275E0714006C8134 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
-		15C46DF2275E0714006C8134 /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
-		15C46DF4275E0714006C8134 /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
-		15C46DF6275E0714006C8134 /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
-		15C46DF8275E0714006C8134 /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
-		15C46DFA275E0714006C8134 /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
 		15C46DFC275E0714006C8134 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		15C46DFD275E0714006C8134 /* ZIlPay_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ZIlPay_Extension.entitlements; sourceTree = "<group>"; };
+		15C46E07275E0793006C8134 /* bundle.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = bundle.js; sourceTree = "<group>"; };
+		15C46E08275E0793006C8134 /* imgs */ = {isa = PBXFileReference; lastKnownFileType = folder; path = imgs; sourceTree = "<group>"; };
+		15C46E09275E0793006C8134 /* phishing.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = phishing.html; sourceTree = "<group>"; };
+		15C46E0A275E0793006C8134 /* vectors */ = {isa = PBXFileReference; lastKnownFileType = folder; path = vectors; sourceTree = "<group>"; };
+		15C46E0B275E0793006C8134 /* icons */ = {isa = PBXFileReference; lastKnownFileType = folder; path = icons; sourceTree = "<group>"; };
+		15C46E0C275E0794006C8134 /* schema.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = schema.json; sourceTree = "<group>"; };
+		15C46E0D275E0794006C8134 /* content.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = content.js; path = "../../../zil-pay/dist/content.js"; sourceTree = "<group>"; };
+		15C46E0E275E0794006C8134 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		15C46E0F275E0794006C8134 /* manifest.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = manifest.json; path = "../../../zil-pay/dist/manifest.json"; sourceTree = "<group>"; };
+		15C46E10275E0794006C8134 /* inpage.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = inpage.js; sourceTree = "<group>"; };
+		15C46E11275E0794006C8134 /* lang */ = {isa = PBXFileReference; lastKnownFileType = folder; path = lang; sourceTree = "<group>"; };
+		15C46E12275E0794006C8134 /* bundle.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = bundle.css; sourceTree = "<group>"; };
+		15C46E13275E0794006C8134 /* fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = fonts; sourceTree = "<group>"; };
+		15C46E14275E0794006C8134 /* background.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = background.js; path = "../../../zil-pay/dist/background.js"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +132,7 @@
 				15C46DD8275E0713006C8134 /* ViewController.swift */,
 				15C46DDA275E0714006C8134 /* Assets.xcassets */,
 				15C46DDC275E0714006C8134 /* Info.plist */,
+				15158482275E0ACB0054D1B5 /* logo.png */,
 			);
 			path = ZIlPay;
 			sourceTree = "<group>";
@@ -144,14 +159,20 @@
 		15C46DEB275E0714006C8134 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				15C46DEC275E0714006C8134 /* _locales */,
-				15C46DEE275E0714006C8134 /* images */,
-				15C46DF0275E0714006C8134 /* manifest.json */,
-				15C46DF2275E0714006C8134 /* background.js */,
-				15C46DF4275E0714006C8134 /* content.js */,
-				15C46DF6275E0714006C8134 /* popup.html */,
-				15C46DF8275E0714006C8134 /* popup.css */,
-				15C46DFA275E0714006C8134 /* popup.js */,
+				15C46E14275E0794006C8134 /* background.js */,
+				15C46E12275E0794006C8134 /* bundle.css */,
+				15C46E07275E0793006C8134 /* bundle.js */,
+				15C46E0D275E0794006C8134 /* content.js */,
+				15C46E13275E0794006C8134 /* fonts */,
+				15C46E0B275E0793006C8134 /* icons */,
+				15C46E08275E0793006C8134 /* imgs */,
+				15C46E0E275E0794006C8134 /* index.html */,
+				15C46E10275E0794006C8134 /* inpage.js */,
+				15C46E11275E0794006C8134 /* lang */,
+				15C46E0F275E0794006C8134 /* manifest.json */,
+				15C46E09275E0793006C8134 /* phishing.html */,
+				15C46E0C275E0794006C8134 /* schema.json */,
+				15C46E0A275E0793006C8134 /* vectors */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -238,6 +259,7 @@
 			files = (
 				15C46DDB275E0714006C8134 /* Assets.xcassets in Resources */,
 				15C46DD7275E0713006C8134 /* Main.storyboard in Resources */,
+				15158483275E0ACB0054D1B5 /* logo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,14 +267,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				15C46DF3275E0714006C8134 /* background.js in Resources */,
-				15C46DF9275E0714006C8134 /* popup.css in Resources */,
-				15C46DF7275E0714006C8134 /* popup.html in Resources */,
-				15C46DEF275E0714006C8134 /* images in Resources */,
-				15C46DF1275E0714006C8134 /* manifest.json in Resources */,
-				15C46DED275E0714006C8134 /* _locales in Resources */,
-				15C46DF5275E0714006C8134 /* content.js in Resources */,
-				15C46DFB275E0714006C8134 /* popup.js in Resources */,
+				15C46E1E275E0794006C8134 /* inpage.js in Resources */,
+				15C46E21275E0794006C8134 /* fonts in Resources */,
+				15C46E22275E0794006C8134 /* background.js in Resources */,
+				15C46E16275E0794006C8134 /* imgs in Resources */,
+				15C46E18275E0794006C8134 /* vectors in Resources */,
+				15C46E17275E0794006C8134 /* phishing.html in Resources */,
+				15C46E19275E0794006C8134 /* icons in Resources */,
+				15C46E1D275E0794006C8134 /* manifest.json in Resources */,
+				15C46E1A275E0794006C8134 /* schema.json in Resources */,
+				15C46E20275E0794006C8134 /* bundle.css in Resources */,
+				15C46E1C275E0794006C8134 /* index.html in Resources */,
+				15C46E1F275E0794006C8134 /* lang in Resources */,
+				15C46E1B275E0794006C8134 /* content.js in Resources */,
+				15C46E15275E0794006C8134 /* bundle.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +444,7 @@
 		15C46E01275E0714006C8134 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "ZIlPay Extension/ZIlPay_Extension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DNQ8PB6F6V;
@@ -427,7 +456,8 @@
 					"@executable_path/../../../../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
-				PRODUCT_BUNDLE_IDENTIFIER = "Rinat-IP.ZIlPay.Extension";
+				MARKETING_VERSION = 1.4;
+				PRODUCT_BUNDLE_IDENTIFIER = "Rinat-IP.zilpay-safari-addon.Extension";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -437,6 +467,7 @@
 		15C46E02275E0714006C8134 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "ZIlPay Extension/ZIlPay_Extension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DNQ8PB6F6V;
@@ -448,7 +479,8 @@
 					"@executable_path/../../../../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
-				PRODUCT_BUNDLE_IDENTIFIER = "Rinat-IP.ZIlPay.Extension";
+				MARKETING_VERSION = 1.4;
+				PRODUCT_BUNDLE_IDENTIFIER = "Rinat-IP.zilpay-safari-addon.Extension";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -464,6 +496,7 @@
 				CODE_SIGN_ENTITLEMENTS = ZIlPay/ZIlPay.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = DNQ8PB6F6V;
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = ZIlPay/Info.plist;
@@ -472,7 +505,8 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
-				PRODUCT_BUNDLE_IDENTIFIER = "Rinat-IP.ZIlPay";
+				MARKETING_VERSION = 1.4;
+				PRODUCT_BUNDLE_IDENTIFIER = "Rinat-IP.zilpay-safari-addon";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -487,6 +521,7 @@
 				CODE_SIGN_ENTITLEMENTS = ZIlPay/ZIlPay.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = DNQ8PB6F6V;
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = ZIlPay/Info.plist;
@@ -495,7 +530,8 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
-				PRODUCT_BUNDLE_IDENTIFIER = "Rinat-IP.ZIlPay";
+				MARKETING_VERSION = 1.4;
+				PRODUCT_BUNDLE_IDENTIFIER = "Rinat-IP.zilpay-safari-addon";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
