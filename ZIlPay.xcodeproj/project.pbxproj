@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		15C46DD4275E0713006C8134 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C46DD3275E0713006C8134 /* AppDelegate.swift */; };
+		15C46DD7275E0713006C8134 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15C46DD5275E0713006C8134 /* Main.storyboard */; };
+		15C46DD9275E0713006C8134 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C46DD8275E0713006C8134 /* ViewController.swift */; };
+		15C46DDB275E0714006C8134 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15C46DDA275E0714006C8134 /* Assets.xcassets */; };
+		15C46DE2275E0714006C8134 /* ZIlPay Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 15C46DE1275E0714006C8134 /* ZIlPay Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		15C46DE7275E0714006C8134 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15C46DE6275E0714006C8134 /* Cocoa.framework */; };
+		15C46DEA275E0714006C8134 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C46DE9275E0714006C8134 /* SafariWebExtensionHandler.swift */; };
+		15C46DED275E0714006C8134 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 15C46DEC275E0714006C8134 /* _locales */; };
+		15C46DEF275E0714006C8134 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 15C46DEE275E0714006C8134 /* images */; };
+		15C46DF1275E0714006C8134 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 15C46DF0275E0714006C8134 /* manifest.json */; };
+		15C46DF3275E0714006C8134 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 15C46DF2275E0714006C8134 /* background.js */; };
+		15C46DF5275E0714006C8134 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 15C46DF4275E0714006C8134 /* content.js */; };
+		15C46DF7275E0714006C8134 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 15C46DF6275E0714006C8134 /* popup.html */; };
+		15C46DF9275E0714006C8134 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 15C46DF8275E0714006C8134 /* popup.css */; };
+		15C46DFB275E0714006C8134 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 15C46DFA275E0714006C8134 /* popup.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		15C46DE3275E0714006C8134 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 15C46DC7275E0713006C8134 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15C46DE0275E0714006C8134;
+			remoteInfo = "ZIlPay Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		15C46E03275E0714006C8134 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				15C46DE2275E0714006C8134 /* ZIlPay Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		15C46DCF275E0713006C8134 /* ZIlPay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZIlPay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		15C46DD2275E0713006C8134 /* ZIlPay.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ZIlPay.entitlements; sourceTree = "<group>"; };
+		15C46DD3275E0713006C8134 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		15C46DD6275E0713006C8134 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		15C46DD8275E0713006C8134 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		15C46DDA275E0714006C8134 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		15C46DDC275E0714006C8134 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15C46DE1275E0714006C8134 /* ZIlPay Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "ZIlPay Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		15C46DE6275E0714006C8134 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		15C46DE9275E0714006C8134 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		15C46DEC275E0714006C8134 /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
+		15C46DEE275E0714006C8134 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		15C46DF0275E0714006C8134 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		15C46DF2275E0714006C8134 /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
+		15C46DF4275E0714006C8134 /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
+		15C46DF6275E0714006C8134 /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
+		15C46DF8275E0714006C8134 /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
+		15C46DFA275E0714006C8134 /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
+		15C46DFC275E0714006C8134 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15C46DFD275E0714006C8134 /* ZIlPay_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ZIlPay_Extension.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		15C46DCC275E0713006C8134 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15C46DDE275E0714006C8134 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15C46DE7275E0714006C8134 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15C46DC6275E0713006C8134 = {
+			isa = PBXGroup;
+			children = (
+				15C46DD1275E0713006C8134 /* ZIlPay */,
+				15C46DE8275E0714006C8134 /* ZIlPay Extension */,
+				15C46DE5275E0714006C8134 /* Frameworks */,
+				15C46DD0275E0713006C8134 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		15C46DD0275E0713006C8134 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				15C46DCF275E0713006C8134 /* ZIlPay.app */,
+				15C46DE1275E0714006C8134 /* ZIlPay Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		15C46DD1275E0713006C8134 /* ZIlPay */ = {
+			isa = PBXGroup;
+			children = (
+				15C46DD2275E0713006C8134 /* ZIlPay.entitlements */,
+				15C46DD3275E0713006C8134 /* AppDelegate.swift */,
+				15C46DD5275E0713006C8134 /* Main.storyboard */,
+				15C46DD8275E0713006C8134 /* ViewController.swift */,
+				15C46DDA275E0714006C8134 /* Assets.xcassets */,
+				15C46DDC275E0714006C8134 /* Info.plist */,
+			);
+			path = ZIlPay;
+			sourceTree = "<group>";
+		};
+		15C46DE5275E0714006C8134 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				15C46DE6275E0714006C8134 /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		15C46DE8275E0714006C8134 /* ZIlPay Extension */ = {
+			isa = PBXGroup;
+			children = (
+				15C46DE9275E0714006C8134 /* SafariWebExtensionHandler.swift */,
+				15C46DFC275E0714006C8134 /* Info.plist */,
+				15C46DFD275E0714006C8134 /* ZIlPay_Extension.entitlements */,
+				15C46DEB275E0714006C8134 /* Resources */,
+			);
+			path = "ZIlPay Extension";
+			sourceTree = "<group>";
+		};
+		15C46DEB275E0714006C8134 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				15C46DEC275E0714006C8134 /* _locales */,
+				15C46DEE275E0714006C8134 /* images */,
+				15C46DF0275E0714006C8134 /* manifest.json */,
+				15C46DF2275E0714006C8134 /* background.js */,
+				15C46DF4275E0714006C8134 /* content.js */,
+				15C46DF6275E0714006C8134 /* popup.html */,
+				15C46DF8275E0714006C8134 /* popup.css */,
+				15C46DFA275E0714006C8134 /* popup.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		15C46DCE275E0713006C8134 /* ZIlPay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15C46E04275E0714006C8134 /* Build configuration list for PBXNativeTarget "ZIlPay" */;
+			buildPhases = (
+				15C46DCB275E0713006C8134 /* Sources */,
+				15C46DCC275E0713006C8134 /* Frameworks */,
+				15C46DCD275E0713006C8134 /* Resources */,
+				15C46E03275E0714006C8134 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				15C46DE4275E0714006C8134 /* PBXTargetDependency */,
+			);
+			name = ZIlPay;
+			productName = ZIlPay;
+			productReference = 15C46DCF275E0713006C8134 /* ZIlPay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		15C46DE0275E0714006C8134 /* ZIlPay Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15C46E00275E0714006C8134 /* Build configuration list for PBXNativeTarget "ZIlPay Extension" */;
+			buildPhases = (
+				15C46DDD275E0714006C8134 /* Sources */,
+				15C46DDE275E0714006C8134 /* Frameworks */,
+				15C46DDF275E0714006C8134 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ZIlPay Extension";
+			productName = "ZIlPay Extension";
+			productReference = 15C46DE1275E0714006C8134 /* ZIlPay Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		15C46DC7275E0713006C8134 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					15C46DCE275E0713006C8134 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					15C46DE0275E0714006C8134 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = 15C46DCA275E0713006C8134 /* Build configuration list for PBXProject "ZIlPay" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 15C46DC6275E0713006C8134;
+			productRefGroup = 15C46DD0275E0713006C8134 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				15C46DCE275E0713006C8134 /* ZIlPay */,
+				15C46DE0275E0714006C8134 /* ZIlPay Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		15C46DCD275E0713006C8134 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15C46DDB275E0714006C8134 /* Assets.xcassets in Resources */,
+				15C46DD7275E0713006C8134 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15C46DDF275E0714006C8134 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15C46DF3275E0714006C8134 /* background.js in Resources */,
+				15C46DF9275E0714006C8134 /* popup.css in Resources */,
+				15C46DF7275E0714006C8134 /* popup.html in Resources */,
+				15C46DEF275E0714006C8134 /* images in Resources */,
+				15C46DF1275E0714006C8134 /* manifest.json in Resources */,
+				15C46DED275E0714006C8134 /* _locales in Resources */,
+				15C46DF5275E0714006C8134 /* content.js in Resources */,
+				15C46DFB275E0714006C8134 /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		15C46DCB275E0713006C8134 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15C46DD9275E0713006C8134 /* ViewController.swift in Sources */,
+				15C46DD4275E0713006C8134 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15C46DDD275E0714006C8134 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15C46DEA275E0714006C8134 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		15C46DE4275E0714006C8134 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 15C46DE0275E0714006C8134 /* ZIlPay Extension */;
+			targetProxy = 15C46DE3275E0714006C8134 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		15C46DD5275E0713006C8134 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15C46DD6275E0713006C8134 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		15C46DFE275E0714006C8134 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		15C46DFF275E0714006C8134 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		15C46E01275E0714006C8134 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "ZIlPay Extension/ZIlPay_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DNQ8PB6F6V;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "ZIlPay Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "Rinat-IP.ZIlPay.Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		15C46E02275E0714006C8134 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "ZIlPay Extension/ZIlPay_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DNQ8PB6F6V;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "ZIlPay Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "Rinat-IP.ZIlPay.Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		15C46E05275E0714006C8134 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ZIlPay/ZIlPay.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = DNQ8PB6F6V;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = ZIlPay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "Rinat-IP.ZIlPay";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		15C46E06275E0714006C8134 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ZIlPay/ZIlPay.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = DNQ8PB6F6V;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = ZIlPay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "Rinat-IP.ZIlPay";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		15C46DCA275E0713006C8134 /* Build configuration list for PBXProject "ZIlPay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15C46DFE275E0714006C8134 /* Debug */,
+				15C46DFF275E0714006C8134 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15C46E00275E0714006C8134 /* Build configuration list for PBXNativeTarget "ZIlPay Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15C46E01275E0714006C8134 /* Debug */,
+				15C46E02275E0714006C8134 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15C46E04275E0714006C8134 /* Build configuration list for PBXNativeTarget "ZIlPay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15C46E05275E0714006C8134 /* Debug */,
+				15C46E06275E0714006C8134 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 15C46DC7275E0713006C8134 /* Project object */;
+}
