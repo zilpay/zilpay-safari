@@ -10,7 +10,7 @@ import SafariServices.SFSafariApplication
 import SafariServices.SFSafariExtensionManager
 
 let appName = "ZIlPay"
-let extensionBundleIdentifier = "Rinat-IP.ZIlPay.Extension"
+let extensionBundleIdentifier = "Rinat-IP.zilpay-safari-addon.Extension"
 
 class ViewController: NSViewController {
 
